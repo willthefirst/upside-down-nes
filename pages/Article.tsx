@@ -1,7 +1,5 @@
-import Image from "next/image"
 import { Figure } from "./Figure"
 import Link from "next/link"
-import Head from "next/head"
 
 export const Article = () => {
   return (
