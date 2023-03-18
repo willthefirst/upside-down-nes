@@ -2,8 +2,7 @@ import { useEffect } from "react"
 import { Figure } from "./Figure"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import { StickyScrollTarget } from "./StickyScrollTarget"
-import { StickyScrollArea } from "./StickyScrollArea"
+import { StickyScrollTarget, StickyScrollArea } from "./StickyScroll"
 
 export const Article = () => {
   const startElementId = "start-here";
@@ -35,6 +34,7 @@ export const Article = () => {
       <br />
       <br />
       <br />
+
 
       <p className="h-padding-page">
         I'm a developer...had a free day...thought it might be interesting to read articles from bottom to top, I dunno.
@@ -257,7 +257,8 @@ export const Article = () => {
       <br />
       <br />
       <br />
-      <br />      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
