@@ -1,67 +1,11 @@
 import Image from "next/image"
 import { Figure } from "./Figure"
 import Link from "next/link"
+import Head from "next/head"
 
 export const Article = () => {
   return (
     <>
-      <style>{`
-        body {
-          line-height: 1.4em;
-          font-size: 1.4rem;
-          font-family: Georgia, "Times New Roman", Times, serif;
-          color: #363636
-        }
-
-        img {
-          margin: auto;
-          width: 100%;
-          height: auto;
-        }
-
-        figcaption {
-          color: #727272;
-          font-size: 1.2rem;
-          line-height: 1.4em;
-        }
-
-        figure {
-          margin: 0;
-        }
-
-        h1 {
-          font-style: italic;
-          font-weight: bold;
-          font-size: 2rem;
-          line-height: 1.4em
-        }
-
-        h2 {  
-          font-size: 1.2em;
-          line-height: 1.4em;
-          font-weight: 600
-        }
-
-        .h-padding-page {
-          padding: 0 1rem;
-        }
-
-        input {
-          font-size: 1.3rem;
-        }
-
-        button {
-          font-size: 1.3rem
-        }
-
-        .self-promotion {
-          display: block;
-          text-align: center;
-          margin: auto;
-          color: hotpink;
-        }
-        `}</style>
-
       <br />
 
       <Link className="self-promotion" href="http://www.willthefirst.com">www.willthefirst.com</Link>
@@ -72,17 +16,21 @@ export const Article = () => {
       <br />
       <br />
       <br />
-      <form className="h-padding-page">
-        <input type="text" placeholder="say hi" />
-        <button type="submit">Email me</button>
-
-      </form>
 
       <p className="h-padding-page">
-        Cooool cool. Let me know if you like it er wanna hire me or something
+        K bye
       </p>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
       <p className="h-padding-page">
-        I'm a developer who had a free day today...just thought it might be interesting to read articles from bottom to top, I dunno.
+        I'm a developer...had a free day...thought it might be interesting to read articles from bottom to top, I dunno.
       </p>
       <br />
       <br />
@@ -252,9 +200,7 @@ export const Article = () => {
         Borrowing could become tougher, a particular blow to small businesses — and a threat to the recovery’s staying power.
       </h2>
       <h1 className="h-padding-page" id="start-here">Banking Crisis Hangs Over Economy, Rekindling Recession Fear
-        Borrowing could become tougher, a particular blow to small businesses — and a threat to the recovery’s staying power.
       </h1>
-
       <br />
       <br />
       <br />

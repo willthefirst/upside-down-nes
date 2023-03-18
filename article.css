@@ -1,0 +1,55 @@
+  body {
+    line-height: 1.4em;
+    font-size: 1.4rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #363636
+  }
+
+  img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    color: #727272;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.4em
+  }
+
+  h2 {  
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: 600
+  }
+
+  .h-padding-page {
+    padding: 0 1rem;
+  }
+
+  input {
+    font-size: 1.3rem;
+  }
+
+  button {
+    font-size: 1.3rem
+  }
+
+  .self-promotion {
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: hotpink;
+  }
+  
