@@ -6,7 +6,7 @@ export const Figure = ({ src, caption }: { src: string, caption: string }) => {
       <figure>
         <Image alt="" src={src} width={400} height={300} />
       </figure>
-      <figcaption>{caption}</figcaption>
+      <figcaption className="h-padding-page">{caption}</figcaption>
     </div>
   )
 }
