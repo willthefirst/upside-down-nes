@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "@types/React": "npm:@types/react@^18.0.28",
+    "@types/react-scroll": "^1.8.6",
     "next": "13.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
     "@types/node": "18.15.3",

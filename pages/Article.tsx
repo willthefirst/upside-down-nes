@@ -2,6 +2,8 @@ import { useEffect } from "react"
 import { Figure } from "./Figure"
 import Link from "next/link"
 import { useRouter } from "next/router"
+import { StickyScrollTarget } from "./StickyScrollTarget"
+import { StickyScrollArea } from "./StickyScrollArea"
 
 export const Article = () => {
   const startElementId = "start-here";
@@ -12,15 +14,19 @@ export const Article = () => {
     router.push(`/#${startElementId}`)
   }, [])
 
+  // stickyScroll....ooh
+
+  // Like a gravitation effect when you scroll, always putting the focused elemtn inthe same place, eg. start at top of the page. If you scroll hard, it releases, but if you scroll slow, it sticks things...like a detachable chairlift.
+
   return (
-    <>
+    <StickyScrollArea>
       <br />
 
-
-
-      <p className="h-padding-page">
-        K bye
-      </p>
+      <StickyScrollTarget>
+        <p className="h-padding-page">
+          K bye
+        </p>
+      </StickyScrollTarget>
 
       <br />
       <br />
@@ -302,7 +308,7 @@ export const Article = () => {
       <br />
       <span className="self-promotion" >Shameful self-promotion:  <Link href="http://www.willthefirst.com">www.willthefirst.com</Link></span>
       <br />
-    </>
+    </StickyScrollArea>
   )
 }
 
