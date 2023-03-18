@@ -16,14 +16,7 @@ export const Article = () => {
     <>
       <br />
 
-      <Link className="self-promotion" href="http://www.willthefirst.com">www.willthefirst.com</Link>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
 
       <p className="h-padding-page">
         K bye
@@ -221,6 +214,44 @@ export const Article = () => {
       <br />
       <br />
       <br />
+      {/* Hello you developer you */}
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />      <br />
       <br />
       <br />
       <br />
@@ -258,6 +289,18 @@ export const Article = () => {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <span className="self-promotion" >Shameful self-promotion:  <Link href="http://www.willthefirst.com">www.willthefirst.com</Link></span>
       <br />
     </>
   )
