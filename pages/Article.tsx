@@ -1,7 +1,17 @@
+import { useEffect } from "react"
 import { Figure } from "./Figure"
 import Link from "next/link"
+import { useRouter } from "next/router"
 
 export const Article = () => {
+  const startElementId = "start-here";
+
+  const router = useRouter()
+
+  useEffect(() => {
+    router.push(`/#${startElementId}`)
+  }, [])
+
   return (
     <>
       <br />
@@ -197,7 +207,7 @@ export const Article = () => {
       <h2 className="h-padding-page">
         Borrowing could become tougher, a particular blow to small businesses — and a threat to the recovery’s staying power.
       </h2>
-      <h1 className="h-padding-page" id="start-here">Banking Crisis Hangs Over Economy, Rekindling Recession Fear
+      <h1 className="h-padding-page" id={startElementId}>Banking Crisis Hangs Over Economy, Rekindling Recession Fear
       </h1>
       <br />
       <br />
